@@ -11,11 +11,11 @@
     {
         static void Main(string[] args)
         {
+            Process process2 = new SynchronizeData();
+            process2.ProcessData();   
+            
             Process process = new Reconciliation();
             process.ProcessData();
-            
-            Process process2 = new SynchronizeData();
-            process2.ProcessData();
         }
     }
 }

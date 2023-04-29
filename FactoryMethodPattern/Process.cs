@@ -14,7 +14,7 @@ public class Reconciliation : Process
     private readonly Logger _logger;
     public Reconciliation()
     {
-        _logger = _loggerFactory.CreateLogger(LoggerType.File);
+        _logger = _loggerFactory.CreateLogger(LoggerType.Console);
     }
     
     public override void ProcessData()
